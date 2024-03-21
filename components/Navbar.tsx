@@ -14,9 +14,9 @@ export default function NavbarComponent() {
               className="h-8"
               alt="Flowbite Logo"
             />
-            <h1 className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               TripXl
-            </h1>
+            </span>
           </a>
           <button
             data-collapse-toggle="navbar-multi-level"
@@ -47,7 +47,7 @@ export default function NavbarComponent() {
             id="navbar-multi-level"
           >
             <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              <h1>
+              <li>
                 <a
                   href="#"
                   className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
@@ -55,8 +55,8 @@ export default function NavbarComponent() {
                 >
                   Home
                 </a>
-              </h1>
-              <h1>
+              </li>
+              <li>
                 <button
                   id="dropdownNavbarLink"
                   data-dropdown-toggle="dropdownNavbar"
@@ -88,14 +88,14 @@ export default function NavbarComponent() {
                     className="py-2 text-sm text-gray-700 dark:text-gray-200"
                     aria-labelledby="dropdownLargeButton"
                   >
-                    <h1>
+                    <li>
                       <a
                         href="#"
                         className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
                         Dashboard
                       </a>
-                    </h1>
+                    </li>
                     <li aria-labelledby="dropdownNavbarLink">
                       <button
                         id="doubleDropdownButton"
@@ -129,49 +129,49 @@ export default function NavbarComponent() {
                           className="py-2 text-sm text-gray-700 dark:text-gray-200"
                           aria-labelledby="doubleDropdownButton"
                         >
-                          <h1>
+                          <li>
                             <a
                               href="#"
                               className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                             >
                               Overview
                             </a>
-                          </h1>
-                          <h1>
+                          </li>
+                          <li>
                             <a
                               href="#"
                               className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                             >
                               My downloads
                             </a>
-                          </h1>
-                          <h1>
+                          </li>
+                          <li>
                             <a
                               href="#"
                               className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                             >
                               Billing
                             </a>
-                          </h1>
-                          <h1>
+                          </li>
+                          <li>
                             <a
                               href="#"
                               className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                             >
                               Rewards
                             </a>
-                          </h1>
+                          </li>
                         </ul>
                       </div>
                     </li>
-                    <h1>
+                    <li>
                       <a
                         href="#"
                         className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
                         Earnings
                       </a>
-                    </h1>
+                    </li>
                   </ul>
                   <div className="py-1">
                     <a
@@ -182,31 +182,31 @@ export default function NavbarComponent() {
                     </a>
                   </div>
                 </div>
-              </h1>
-              <h1>
+              </li>
+              <li>
                 <a
                   href="#"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Services
                 </a>
-              </h1>
-              <h1>
+              </li>
+              <li>
                 <a
                   href="#"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Pricing
                 </a>
-              </h1>
-              <h1>
+              </li>
+              <li>
                 <a
                   href="#"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Contact
                 </a>
-              </h1>
+              </li>
             </ul>
           </div>
         </div>

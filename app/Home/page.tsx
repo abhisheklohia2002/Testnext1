@@ -25,6 +25,7 @@ export default function HomePage() {
     <>
       <NavbarComponent />
       <div className="">
+        <h1>Homepage, list of all products</h1>
         {getData?.map((e, i) => (
           <Cards data={e} key={i} />
         ))}
